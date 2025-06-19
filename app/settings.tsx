@@ -1,7 +1,11 @@
 import { View, Text, ScrollView, Switch, StyleSheet } from 'react-native';
 import React from 'react';
 import { Ionicons } from '@expo/vector-icons';
+<<<<<<< HEAD
 // import FontAwesome from 'react-native-vector-icons/FontAwesome';
+=======
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
+>>>>>>> 34af9f6986769a1bd9a5110ed9a36b972e3201ad
 
 const Settings = () => {
   return (
@@ -99,8 +103,12 @@ const Settings = () => {
           <Switch />
         </View>
       </View>
+<<<<<<< HEAD
 
       <View style={styles.section}>
+=======
+<View style={styles.section}>
+>>>>>>> 34af9f6986769a1bd9a5110ed9a36b972e3201ad
         <Text style={styles.sectionTitle}>Language</Text>
         <View style={styles.row}>
           <Ionicons name="globe-outline" size={30} color="#333" />
@@ -183,7 +191,11 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     paddingHorizontal: 15,
+<<<<<<< HEAD
     paddingTop: 20,
+=======
+    paddingTop: 60,
+>>>>>>> 34af9f6986769a1bd9a5110ed9a36b972e3201ad
   },
   section: {
     marginBottom: 30,
@@ -222,4 +234,8 @@ const styles = StyleSheet.create({
   },
 });
 
+<<<<<<< HEAD
 export default Settings;
+=======
+export default Settings;
+>>>>>>> 34af9f6986769a1bd9a5110ed9a36b972e3201ad

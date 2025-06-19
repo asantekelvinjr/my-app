@@ -123,7 +123,7 @@ export default function ProfileScreen() {
             <Text style={[styles.label, { color: theme.muted }]}>Name</Text>
             {isEditing ? (
               <TextInput
-                style={[styles.input, { borderColor: theme.border, color: theme.text }]}
+              style={[styles.input, { borderColor: theme.border, color: theme.text }]}
                 value={name}
                 onChangeText={setName}
                 placeholder="Your name"
