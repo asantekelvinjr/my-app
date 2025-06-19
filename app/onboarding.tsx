@@ -1,5 +1,6 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useState } from 'react';
+import { useColorScheme } from '@/hooks/useColorScheme';
 import {
   KeyboardAvoidingView,
   Platform,

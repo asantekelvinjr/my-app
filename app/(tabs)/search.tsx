@@ -11,7 +11,7 @@ import {
   View,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { CareerOrCourse, getRecentSearches, saveRecentSearch, searchAll } from './services/dataService';
+import { CareerOrCourse, getRecentSearches, saveRecentSearch, searchAll } from '../services/dataService';
 
 export default function SearchScreen() {
   const [searchQuery, setSearchQuery] = useState('');
